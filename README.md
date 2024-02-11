@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/vb-ferreira/fmt-todo-list/blob/main/logo-fmt-2.png?sanitize=true" width="110" height="110"/>
+  <img src="https://github.com/vb-ferreira/fmt-todo-list/blob/main/img/logo-fmt.png?sanitize=true" width="110" height="110"/>
 </div>
 <hr>
 
