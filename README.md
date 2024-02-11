@@ -16,13 +16,13 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 ### [📌 Primeiros elementos da To-Do List](https://trello.com/c/xSe7DQ1K) | source code: [`v1.1`]()
 
-- Adicione um cabeçalho dentro da página, para que o usuário saiba facilmente em que página se encontra e do que se trata o conteúdo.
+- Adicione um cabeçalho dentro da página, para que o usuário saiba facilmente em que página se encontra e do que se trata o conteúdo. :heavy_check_mark:
 
-- Adicione também um campo de texto para digitar o nome de uma nova atividade a ser adicionada à lista.
+- Adicione também um campo de texto para digitar o nome de uma nova atividade a ser adicionada à lista. :heavy_check_mark:
 
-- Insira na página um botão, que irá adicionar o texto digitado pelo usuário como uma tarefa na lista. (nesse primeiro momento o botão não fará nada, você só precisa inserir o elemento no documento HTML)
+- Insira na página um botão, que irá adicionar o texto digitado pelo usuário como uma tarefa na lista. (nesse primeiro momento o botão não fará nada, você só precisa inserir o elemento no documento HTML) :heavy_check_mark:
 
-- Coloque na página também uma lista não ordenada, onde serão adicionados os itens criados pelo usuário.
+- Coloque na página também uma lista não ordenada, onde serão adicionados os itens criados pelo usuário. :heavy_check_mark:
 
 ### [📌 Checkbox e Lixeira](https://trello.com/c/hGxgJqPQ) | source code: [`v1.2`]() 
 
