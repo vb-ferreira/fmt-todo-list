@@ -24,7 +24,7 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 - Coloque na página também uma lista não ordenada, onde serão adicionados os itens criados pelo usuário. :heavy_check_mark:
 
-### [📌 Checkbox e Lixeira](https://trello.com/c/hGxgJqPQ) | source code: [`v1.2`]() 
+### [📌 Checkbox e Lixeira](https://trello.com/c/hGxgJqPQ) | source code: [`v1.2`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v1.2) 
 
 - Adicione caixas de seleção, uma para cada item da lista. :heavy_check_mark:
 
