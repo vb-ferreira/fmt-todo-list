@@ -32,7 +32,15 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 - Com CSS, remova os pontos da lista e o espaçamento à esquerda. :heavy_check_mark:
 
+### 📌 Extras: refatoração e estilização | source code: [`v2.0`]()
+
+- Estilização adicional com CSS. :heavy_check_mark:
+
+- Adição de ícones. :heavy_check_mark:
+
+- Adição de background SVG. :heavy_check_mark:
+
 ## Demonstração
 
-Insira um gif ou um link de alguma demonstração
+Veja uma **demo** da aplicação [aqui](). 
 
