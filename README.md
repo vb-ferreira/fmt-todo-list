@@ -14,7 +14,7 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 - Construa um documento HTML5, chamado `index.html`, em que a linguagem seja português do Brasil (pt-br), o conjunto de caracteres seja UTF-8, e que o conteúdo preencha toda a área do navegador. :heavy_check_mark:
 - Defina um título para aparecer na aba do navegador, indicando do que se trata essa página, para que o usuário encontre a sua aplicação no meio das várias abas que constantemente mantém abertas. :heavy_check_mark:
 
-### [📌 Primeiros elementos da To-Do List](https://trello.com/c/xSe7DQ1K) | source code: [`v1.1`]()
+### [📌 Primeiros elementos da To-Do List](https://trello.com/c/xSe7DQ1K) | source code: [`v1.1`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v1.1)
 
 - Adicione um cabeçalho dentro da página, para que o usuário saiba facilmente em que página se encontra e do que se trata o conteúdo. :heavy_check_mark:
 
