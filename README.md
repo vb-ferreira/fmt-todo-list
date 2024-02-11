@@ -1,3 +1,8 @@
+<div align="center">
+  <img src="https://github.com/vb-ferreira/fmt-todo-list/blob/main/logo-fmt-2.png?sanitize=true" width="110" height="110"/>
+</div>
+<hr>
+
 # [M1S05] To-Do List
 
 Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde os usuários poderão digitar uma tarefa e adicioná-la a uma lista, e então poderão gerenciar essa lista marcando a tarefa como concluída ou excluindo a tarefa da lista.
