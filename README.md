@@ -32,7 +32,7 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 - Com CSS, remova os pontos da lista e o espaçamento à esquerda. :heavy_check_mark:
 
-### 📌 Extras: refatoração e estilização | source code: [`v2.0`]()
+### 📌 Extras: refatoração e estilização | source code: [`v2.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v2.0)
 
 - Estilização adicional com CSS. :heavy_check_mark:
 
@@ -42,5 +42,5 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 ## Demonstração
 
-Veja uma **demo** da aplicação [aqui](). 
+Veja uma **demo** da aplicação [aqui](https://vb-ferreira.github.io/fmt-todo-list/). 
 
