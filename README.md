@@ -26,11 +26,11 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 ### [📌 Checkbox e Lixeira](https://trello.com/c/hGxgJqPQ) | source code: [`v1.2`]() 
 
-- Adicione caixas de seleção, uma para cada item da lista.
+- Adicione caixas de seleção, uma para cada item da lista. :heavy_check_mark:
 
-- Adicione botões de remover (“x“) para cada item da lista.
+- Adicione botões de remover (“x“) para cada item da lista. :heavy_check_mark:
 
-- Com CSS, remova os pontos da lista e o espaçamento à esquerda.
+- Com CSS, remova os pontos da lista e o espaçamento à esquerda. :heavy_check_mark:
 
 ## Demonstração
 
