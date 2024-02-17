@@ -47,7 +47,7 @@ Os requisitos do [Ex. 1](https://trello.com/c/MF7G7bnM) e do [Ex. 3](https://tre
 
 ## Tarefas
 
-### [📌 Estilizando a lista](https://trello.com/c/oFK11rHu) | source code: [`v2.1`]()
+### [📌 Estilizando a lista](https://trello.com/c/oFK11rHu) | source code: [`v2.1`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v2.1)
 
 - Botão de excluir deve ser sucinto, mas deve indicar de forma correta e fácil o que o botão faz. Pode ser utilizado um ícone. :heavy_check_mark:
 
