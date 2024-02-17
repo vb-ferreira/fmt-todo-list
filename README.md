@@ -3,19 +3,19 @@
 </div>
 <hr>
 
-# [M1S05] To-Do List
+# [M1S05] TODO List
 
 Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde os usuários poderão digitar uma tarefa e adicioná-la a uma lista, e então poderão gerenciar essa lista marcando a tarefa como concluída ou excluindo a tarefa da lista.
 
 ## Tarefas
 
-### [📌 Iniciando o projeto de To-Do List](https://trello.com/c/miTTOIRu) | source code: [`v1.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v1.0) 
+### [📌 Iniciando o projeto de TODO List](https://trello.com/c/miTTOIRu) | source code: [`v1.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v1.0) 
 
 - Construa um documento HTML5, chamado `index.html`, em que a linguagem seja português do Brasil (pt-br), o conjunto de caracteres seja UTF-8, e que o conteúdo preencha toda a área do navegador. :heavy_check_mark:
 
 - Defina um título para aparecer na aba do navegador, indicando do que se trata essa página, para que o usuário encontre a sua aplicação no meio das várias abas que constantemente mantém abertas. :heavy_check_mark:
 
-### [📌 Primeiros elementos da To-Do List](https://trello.com/c/xSe7DQ1K) | source code: [`v1.1`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v1.1)
+### [📌 Primeiros elementos da TODO List](https://trello.com/c/xSe7DQ1K) | source code: [`v1.1`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v1.1)
 
 - Adicione um cabeçalho dentro da página, para que o usuário saiba facilmente em que página se encontra e do que se trata o conteúdo. :heavy_check_mark:
 
@@ -41,7 +41,7 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 - Adição de background SVG. :heavy_check_mark:
 
-# [M1S06] To-Do List (continuação)
+# [M1S06] TODO List (continuação)
 
 Os requisitos do [Ex. 1](https://trello.com/c/MF7G7bnM) e do [Ex. 3](https://trello.com/c/DiMBf6GG) já foram atendidos na [v2.0](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v2.0). 
 
@@ -55,7 +55,12 @@ Os requisitos do [Ex. 1](https://trello.com/c/MF7G7bnM) e do [Ex. 3](https://tre
 
 - Criar um estilo para quando a tarefa estiver concluída, ou seja, o checkbox estiver marcado. Nesse caso, o texto deve ser tachado (line-through). :heavy_check_mark:
 
+### [📌 Adicionando itens na lista](https://trello.com/c/6RymOJBw) | source code: [`v2.2`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v2.2)
+
+- Verificar se existe alguma atividade descrita; :heavy_check_mark:
+
+- Criar um novo elemento na lista. :heavy_check_mark:
+
 # Demonstração
 
 Veja uma **demo** da aplicação [aqui](https://vb-ferreira.github.io/fmt-todo-list/). 
-

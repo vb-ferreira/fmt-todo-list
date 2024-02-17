@@ -4,7 +4,7 @@
   /* Reset */
   padding: 0;
   margin: 0;
-  font-family: Helvetica;
+  font-family: 'Open sans';
   color: #333;
   box-sizing: border-box; 
 }
@@ -93,12 +93,14 @@ form {
   flex-grow: 2;
 }
 
-/* li.task-item {
-  padding: 1rem 0;
-} */
-
 .task-item + .task-item {
   margin-top: 1.5rem;
+}
+
+.message {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 /* CUSTOM CHECKBOX */
