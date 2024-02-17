@@ -12,6 +12,7 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 ### [📌 Iniciando o projeto de To-Do List](https://trello.com/c/miTTOIRu) | source code: [`v1.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v1.0) 
 
 - Construa um documento HTML5, chamado `index.html`, em que a linguagem seja português do Brasil (pt-br), o conjunto de caracteres seja UTF-8, e que o conteúdo preencha toda a área do navegador. :heavy_check_mark:
+
 - Defina um título para aparecer na aba do navegador, indicando do que se trata essa página, para que o usuário encontre a sua aplicação no meio das várias abas que constantemente mantém abertas. :heavy_check_mark:
 
 ### [📌 Primeiros elementos da To-Do List](https://trello.com/c/xSe7DQ1K) | source code: [`v1.1`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v1.1)
@@ -40,7 +41,21 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 - Adição de background SVG. :heavy_check_mark:
 
-## Demonstração
+# [M1S06] To-Do List (continuação)
+
+Os requisitos do [Ex. 1](https://trello.com/c/MF7G7bnM) e do [Ex. 3](https://trello.com/c/DiMBf6GG) já foram atendidos na [v2.0](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v2.0). 
+
+## Tarefas
+
+### [📌 Estilizando a lista](https://trello.com/c/oFK11rHu) | source code: [`v2.1`]()
+
+- Botão de excluir deve ser sucinto, mas deve indicar de forma correta e fácil o que o botão faz. Pode ser utilizado um ícone. :heavy_check_mark:
+
+- Ajustar espaçamento entre os itens da lista e os elementos de um mesmo item. :heavy_check_mark:
+
+- Criar um estilo para quando a tarefa estiver concluída, ou seja, o checkbox estiver marcado. Nesse caso, o texto deve ser tachado (line-through). :heavy_check_mark:
+
+# Demonstração
 
 Veja uma **demo** da aplicação [aqui](https://vb-ferreira.github.io/fmt-todo-list/). 
 

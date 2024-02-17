@@ -18,6 +18,7 @@ body {
 ul {
   list-style: none;
   padding: 1rem;
+  margin-top: .5rem;
 }
 
 button {
@@ -40,6 +41,11 @@ button > i {
 button:hover {
   background-color: #102F5E;
 }
+
+.task-item button:hover {
+  background-color: #b30000;
+  border: 2px solid #b30000;
+} 
 
 button:hover > i {
   color: #FDFDFD;
@@ -87,8 +93,12 @@ form {
   flex-grow: 2;
 }
 
-li.task-item {
+/* li.task-item {
   padding: 1rem 0;
+} */
+
+.task-item + .task-item {
+  margin-top: 1.5rem;
 }
 
 /* CUSTOM CHECKBOX */
@@ -120,4 +130,9 @@ input[type="checkbox"]::before {
 
 input[type="checkbox"]:checked::before {
   transform: scale(1);
+}
+
+/* "Corta" itens verificados */
+input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
 }
