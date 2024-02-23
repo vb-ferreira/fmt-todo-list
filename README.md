@@ -3,7 +3,7 @@
 </div>
 <hr>
 
-# [M1S05] TODO List
+# [M1S05] TODO List - Part 1
 
 Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde os usuários poderão digitar uma tarefa e adicioná-la a uma lista, e então poderão gerenciar essa lista marcando a tarefa como concluída ou excluindo a tarefa da lista.
 
@@ -41,7 +41,7 @@ Criar uma aplicação web, utilizando **HTML**, **CSS** e **JavaScript**, onde o
 
 - Adição de background SVG. :heavy_check_mark:
 
-# [M1S06] TODO List (continuação)
+# [M1S06] TODO List - Part 2
 
 Os requisitos do [Ex. 1](https://trello.com/c/MF7G7bnM) e do [Ex. 3](https://trello.com/c/DiMBf6GG) já foram atendidos na [v2.0](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v2.0). 
 
@@ -60,6 +60,20 @@ Os requisitos do [Ex. 1](https://trello.com/c/MF7G7bnM) e do [Ex. 3](https://tre
 - Verificar se existe alguma atividade descrita; :heavy_check_mark:
 
 - Criar um novo elemento na lista. :heavy_check_mark:
+
+# [M1S07] TODO List - Part 3
+
+Os requisitos do [Ex. 1](https://trello.com/c/Tn2ZwdBM), [Ex. 2](https://trello.com/c/AfhUZQUT) e [Ex. 4](https://trello.com/c/IH2sxy5U) serão atendidos na [v3.0](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v2.2). 
+
+## Tarefas
+
+### [📌 Excluindo uma tarefa](https://trello.com/c/pYKPkCSl) | source code: [`v3.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v3.0)
+
+- Deve remover apenas o item correspondente da lista, mantendo todos os outros. :heavy_check_mark:
+
+- E se o usuário clicar sem querer no botão excluir? Essa remoção é definitiva, então seria uma boa ideia confirmar com o usuário se ele realmente deseja fazer isso.
+
+- Deve ser calculado o número de tarefas na lista e exibido em algum lugar da tela. :heavy_check_mark:
 
 # Demonstração
 

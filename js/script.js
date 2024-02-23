@@ -16,7 +16,7 @@ const saveTask = (task) => {
   taskCheck.setAttribute('type', 'checkbox');
 
   const taskTitle = document.createElement('span');
-  taskTitle.innerText = task;
+  taskTitle.innerText = task.toUpperCase();
 
   const clearBtn = document.createElement('button');
   clearBtn.classList.add('delete-task');
@@ -29,12 +29,15 @@ const saveTask = (task) => {
 
   taskList.append(taskItem);
   newTask.value = '';
+  newTask.focus();
 }
 
-const noTasks = () => {
+const checkTasks = () => {
   const msg = document.querySelector('.message');
-  
-  if (taskList.children.length === 0 && !msg) {
+  const numTasksEl = document.querySelector('h1 span');
+  const numTasks = taskList.children.length;
+
+  if (numTasks === 0 && !msg) {
     const message = document.createElement('p');
     message.innerText = 'Adicione uma tarefa!';
     message.classList.add('message');
@@ -42,6 +45,9 @@ const noTasks = () => {
   } else if (msg) {
     msg.remove();
   }
+
+  const numTasksChecked = document.querySelectorAll('input[type="checkbox"]:checked').length;
+  numTasksEl.textContent = numTasks - numTasksChecked;
 }
 
 // Eventos
@@ -54,9 +60,10 @@ form.addEventListener('submit', (e) => {
   if (inputTask) {
     saveTask(inputTask);
     feedback.innerText = '';
-    noTasks();
+    checkTasks();
   } else {
     feedback.innerText = 'Descreva sua tarefa!';
+    newTask.focus();
   }
 });
 
@@ -69,7 +76,7 @@ taskList.addEventListener('click', (e) => {
     targetParent.remove();
   }
 
-  noTasks();
+  checkTasks();
 });
 
-noTasks();
+checkTasks();
