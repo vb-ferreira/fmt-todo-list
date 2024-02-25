@@ -71,7 +71,7 @@ Os requisitos do [Ex. 1](https://trello.com/c/Tn2ZwdBM), [Ex. 2](https://trello.
 
 - Deve remover apenas o item correspondente da lista, mantendo todos os outros. :heavy_check_mark:
 
-- E se o usuário clicar sem querer no botão excluir? Essa remoção é definitiva, então seria uma boa ideia confirmar com o usuário se ele realmente deseja fazer isso.
+- E se o usuário clicar sem querer no botão excluir? Essa remoção é definitiva, então seria uma boa ideia confirmar com o usuário se ele realmente deseja fazer isso. :heavy_check_mark:
 
 - Deve ser calculado o número de tarefas na lista e exibido em algum lugar da tela. :heavy_check_mark:
 

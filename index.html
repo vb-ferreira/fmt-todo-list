@@ -19,7 +19,7 @@
 <body>
   <div class="container">
     <header>
-      <h1>&lt;!-- TODO: <span>3</span> --&gt;</h1>
+      <h1>&lt;!-- TODO: <span></span> --&gt;</h1>
     </header>
     <form>
       <label for="new-task" class="form-label">Nova tarefa:</label>
@@ -33,5 +33,19 @@
       <ul></ul>
     </div>
   </div>
+  <!-- Modal -->
+  <div class="modal hide">
+    <div class="box">
+      <div id="close-modal"><i class="bi bi-x-lg dismiss-modal"></i></div>
+      <h2><i class="bi bi-exclamation-triangle"></i>Atenção</h2>
+      <hr>
+      <p>Deseja realmente apagar a tarefa?</p>
+      <div class="btns">
+        <div class="div-btn dismiss-modal" id="btn-cancelar">Cancelar</div>
+        <div class="div-btn delete-item" id="btn-apagar">Apagar</div>
+      </div>
+    </div>
+  </div>
+  <!-- End Modal -->
 </body>
 </html>

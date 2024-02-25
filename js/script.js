@@ -2,6 +2,8 @@
 const form = document.querySelector('form');
 const newTask = document.querySelector('#new-task');
 const taskList = document.querySelector('ul');
+const modal = document.querySelector('.modal');
+let targetParent;
 
 // Funções auxiliares
 const saveTask = (task) => {
@@ -69,14 +71,28 @@ form.addEventListener('submit', (e) => {
 
 taskList.addEventListener('click', (e) => {
   const target = e.target;
-  const targetParent = target.closest('li');
+  targetParent = target.closest('li');
   const lowerTag = target.tagName.toLowerCase();
-  
+
   if (target.classList.contains('delete-task') || lowerTag === 'i') {
-    targetParent.remove();
+    modal.classList.remove('hide');
   }
 
   checkTasks();
+});
+
+modal.addEventListener('click', (e) => {
+  const target = e.target;
+  const lowerTag = target.tagName.toLowerCase();
+
+  if (target.classList.contains('dismiss-modal')) {
+    modal.classList.add('hide');
+  } else if (target.classList.contains('delete-item')) {
+    targetParent.remove();
+    checkTasks();
+    modal.classList.add('hide');
+  }
+
 });
 
 checkTasks();

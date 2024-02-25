@@ -147,3 +147,104 @@ input[type="checkbox"]:checked::before {
 input[type="checkbox"]:checked + span {
   text-decoration: line-through;
 }
+
+/* MODAL */
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: #00000080;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 25rem;
+  position: relative;
+  background-color: #FFF;
+  border-radius: .5rem;
+}
+
+.modal .box h2 {
+  padding: 1.5rem;
+  margin: 0;
+  color: #102F5E;
+  text-transform: uppercase;
+}
+
+.modal h2 i {
+  margin-right: 1rem;
+}
+
+#close-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.5rem;
+  -webkit-text-stroke: 1px;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+.modal hr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.modal p {
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.modal .btns {
+  display: flex;
+  justify-content: center;
+  padding: .5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.btns .div-btn {
+  text-decoration: none;
+  padding: .5rem;
+  border-radius: .5rem;
+  width: 7rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btns #btn-cancelar {
+  background-color: #FFF;
+  color: #102F5E;
+  border: solid 1px #102F5E;
+  margin-right: 1rem;
+  transition: all .5s ease-out;
+}
+.btns #btn-cancelar:hover {
+  background-color: #102F5E;
+  color: #FFF;
+}
+
+.btns #btn-apagar {
+  background-color: #FFF;
+  color: #b30000;
+  border: solid 1px #b30000;
+  transition: all .5s ease-out;
+}
+.btns #btn-apagar:hover {
+  background-color: #b30000;
+  color: #FFF;
+}
+
+.hide {
+  /* opacity: 0; */
+  display: none;
+}
+
+
+
+
+
+
