@@ -6,7 +6,7 @@ const modal = document.querySelector('.modal');
 let targetParent;
 
 // Funções auxiliares
-const saveTask = (task) => {
+const saveTask = (task, done=false) => {
   const taskItem = document.createElement('li');
   taskItem.classList.add('task-item');
 
@@ -30,6 +30,8 @@ const saveTask = (task) => {
   taskItem.append(clearBtn);
 
   taskList.append(taskItem);
+  if (done == true) { taskCheck.checked = true }
+
   newTask.value = '';
   newTask.focus();
 }
@@ -52,6 +54,20 @@ const checkTasks = () => {
   numTasksEl.textContent = numTasks - numTasksChecked;
 }
 
+function getTaskIndex() {
+  const nodes = Array.from(taskList.children);
+  const index = nodes.indexOf(targetParent);
+  return index;
+}
+
+// Recupera os dados da localStorage ou lista vazia
+const todos = JSON.parse(localStorage.getItem('todos')) || [];
+
+// Exibe na tela itens armazenados
+todos.forEach(todo => {
+  saveTask(todo.content, todo.done);
+});
+
 // Eventos
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -59,7 +75,17 @@ form.addEventListener('submit', (e) => {
   const inputTask = newTask.value.trim();
   const feedback = document.querySelector('small');
 
+  // Objeto a ser salvo na localStorage
+  const todo = {
+    content: inputTask,
+    done: false
+  }
+
   if (inputTask) {
+    // Salva na localStorage
+    todos.push(todo);
+    localStorage.setItem('todos', JSON.stringify(todos));
+
     saveTask(inputTask);
     feedback.innerText = '';
     checkTasks();
@@ -78,6 +104,13 @@ taskList.addEventListener('click', (e) => {
     modal.classList.remove('hide');
   }
 
+  // Atualiza o status da tarefa na localStorage
+  if (target.classList.contains('task-check')) {
+    index = getTaskIndex();
+    todos[index].done = target.checked;
+    localStorage.setItem('todos', JSON.stringify(todos));
+  }
+
   checkTasks();
 });
 
@@ -88,6 +121,11 @@ modal.addEventListener('click', (e) => {
   if (target.classList.contains('dismiss-modal')) {
     modal.classList.add('hide');
   } else if (target.classList.contains('delete-item')) {
+    // Remove item da localStorage
+    index = getTaskIndex();
+    todos.splice(index, 1);
+    localStorage.setItem('todos', JSON.stringify(todos));
+
     targetParent.remove();
     checkTasks();
     modal.classList.add('hide');

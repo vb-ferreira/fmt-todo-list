@@ -63,7 +63,7 @@ Os requisitos do [Ex. 1](https://trello.com/c/MF7G7bnM) e do [Ex. 3](https://tre
 
 # [M1S07] TODO List - Part 3
 
-Os requisitos do [Ex. 1](https://trello.com/c/Tn2ZwdBM), [Ex. 2](https://trello.com/c/AfhUZQUT) e [Ex. 4](https://trello.com/c/IH2sxy5U) serão atendidos na [v3.0](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v2.2). 
+Os requisitos dos [Ex. 1](https://trello.com/c/Tn2ZwdBM), [Ex. 2](https://trello.com/c/AfhUZQUT) e [Ex. 4](https://trello.com/c/IH2sxy5U) serão atendidos na [v3.0](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v3.0). 
 
 ## Tarefas
 
@@ -74,6 +74,28 @@ Os requisitos do [Ex. 1](https://trello.com/c/Tn2ZwdBM), [Ex. 2](https://trello.
 - E se o usuário clicar sem querer no botão excluir? Essa remoção é definitiva, então seria uma boa ideia confirmar com o usuário se ele realmente deseja fazer isso. :heavy_check_mark:
 
 - Deve ser calculado o número de tarefas na lista e exibido em algum lugar da tela. :heavy_check_mark:
+
+# [M1S08] TODO List - Part 4
+
+Os requisitos dos [Ex. 1](https://trello.com/c/jHvLeMk8), [Ex. 2](https://trello.com/c/6qSAFcUC), [Ex. 3](https://trello.com/c/4jLZgAw0) e [Ex. 4](https://trello.com/c/joE9DPMx) serão atendidos na [v4.0](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v4.0). 
+
+## Tarefas
+
+### [📌 Função para criar tarefa](https://trello.com/c/jHvLeMk8) | source code: [`v4.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v4.0)
+
+- Crie uma função para adicionar uma tarefa a lista de tarefas no `localStorage`. :heavy_check_mark:
+
+### [📌 Função para marcar tarefa como concluída](https://trello.com/c/6qSAFcUC) | source code: [`v4.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v4.0)
+
+- Cria uma função para atualizar uma tarefa existente no `localStorage`. :heavy_check_mark:
+
+### [📌 Função para remover tarefa](https://trello.com/c/4jLZgAw0) | source code: [`v4.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v4.0)
+
+- Cria uma função para remover uma tarefa existente do `localStorage`. :heavy_check_mark:
+
+### [📌 Função para listar todas as tarefas](https://trello.com/c/joE9DPMx) | source code: [`v4.0`](https://github.com/vb-ferreira/fmt-todo-list/releases/tag/v4.0)
+
+- Crie uma função para ler todas as tarefas salvas no `localStorage`. :heavy_check_mark:
 
 # Demonstração
 
